@@ -2,19 +2,22 @@
 
 ### Day 8: Attach Managed Disk to Azure Virtual Machine
 
-The Nautilus DevOps team is strategizing the migration of a portion of their infrastructure to the Azure cloud. Recognizing the scale of this undertaking, they have opted to approach the migration in incremental steps rather than as a single massive transition. To achieve this, they have segmented large tasks into smaller, more manageable units. This granular approach enables the team to execute the migration in gradual phases, ensuring smoother implementation and minimizing disruption to ongoing operations. By breaking down the migration into smaller tasks, the Nautilus DevOps team can systematically progress through each stage, allowing for better control, risk mitigation, and optimization of resources throughout the migration process.
+The Nautilus DevOps team is migrating services to Azure. They are breaking down tasks to ensure better control and optimization. You are tasked with attaching an existing data disk to a virtual machine (VM).
 
-For this task, allocate a Public IP address, name it as nautilus-pip.
+An existing VM named devops-vm and a managed disk named devops-disk already exist in the East US region.
+
+Attach the disk devops-disk to the VM devops-vm as a data disk.
+Ensure the disk is attached to the VM devops-vm.
+Make sure that the virtual machine initialization has been completed before submitting this task.
 
 
 
 Use below given Azure Credentials: (You can run the showcreds command on the azure-client host to retrieve credentials)
 
 Portal URL	https://portal.azure.com
-Username	kk_lab_user_main-646396ed4c7e4330@azurefreekmlprod3.onmicrosoft.com
-Password	n6hpu==h
-Start Time	Wed Dec 31 15:18:45 UTC 2025
-End Time	Wed Dec 31 16:18:45 UTC 2025
-
+Username	kk_lab_user_main-94e93915001b48a9@azurefreekmlprod.onmicrosoft.com
+Password	v^c8kg$v
+Start Time	Mon Jan 05 13:19:20 UTC 2026
+End Time	Mon Jan 05 14:19:20 UTC 2026
 
 ![alt text](image.png)
